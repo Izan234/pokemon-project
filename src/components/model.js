@@ -1,6 +1,6 @@
 const MAX_CREDITS = 200;
 const MAX_TEAM_SIZE = 6;
-const IMAGE_FILE_PATH = "../../public/images";
+const IMAGE_FILE_PATH = "../../public/images/";
 // =========================
 // Classe Base: Pokemon
 // =========================

@@ -1,7 +1,10 @@
 <script>
-import PokemonCard from "./components/PokemonCard.js";
+import PokemonCard from "./components/PokemonCard.vue";
 import { PokemonTeamViewModel } from "./components/viewModel.js";
 export default {
+  components: {
+    PokemonCard,
+  },
   data() {
     return {
       currentScreen: "setup",
@@ -232,11 +235,13 @@ export default {
     </section>
     <!-- Secció de selecció de l'equip -->
     <section v-if="currentScreen === 'teamSelection'" id="team-selection-section">
-      <h2>Selecciona el teu Equip</h2>
-      <h2>{{ currentPlayerSelectionMessage }}</h2>
-      <h2 id="credits-display">
-        Crèdits restants: <span id="credits-value">{{ creditsDisplay }}</span>
-      </h2>
+      <div class="centrar">
+        <h2>Selecciona el teu Equip</h2>
+        <h2>{{ currentPlayerSelectionMessage }}</h2>
+        <h2 id="credits-display">
+          Crèdits restants: <span id="credits-value">{{ creditsDisplay }}</span>
+        </h2>
+      </div>
       <div id="team-section">
         <h2 id="current-player-selection">{{ currentPlayerSelectionDisplay }}</h2>
         <div id="selected-team-grid" class="grid-container" ref="teamContainer">
