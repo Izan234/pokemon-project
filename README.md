@@ -25,7 +25,6 @@ El proyecto consiste en un juego de pokemon en el cual puedes jugar contra la m�
 - Modo de juego individual o multijugador
 - Puede elegir el equipo a tu gusto
 - Tienes un registro de la pelea
-- Diseño sencillo para cualquier persona
 
 ### Contribución
 Crea una rama para tu funcionalidad o corrección:
@@ -40,3 +39,4 @@ Este proyecto no tiene licencia
 
 ### Contacto
 Telefono: 657 86 45 88
+Correo: tupapi@gmail.com
