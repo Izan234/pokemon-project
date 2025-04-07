@@ -29,7 +29,7 @@ El proyecto consiste en un juego de pokemon en el cual puedes jugar contra la m�
 ### Contribución
 Crea una rama para tu funcionalidad o corrección:
 git checkout -b feature/nova-funcionalitat
-Fez tus cambios y confírmalos:
+Guardar los cambios:
 git commit -m "Afegeix nova funcionalitat"
 Sube los cambios a tu repositorio:
 git push origin feature/nova-funcionalitat
