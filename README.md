@@ -35,7 +35,7 @@ Sube los cambios a tu repositorio:
 git push origin feature/nova-funcionalitat
 
 ### Licencia
-Este proyecto no tiene licencia
+GPLv3
 
 ### Contacto
 Telefono: 657 86 45 88
